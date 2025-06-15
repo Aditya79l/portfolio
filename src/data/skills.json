@@ -1,0 +1,17 @@
+[
+  { "Title": "Python", "img": "/assets/skills/python.png" },
+  { "Title": "C", "img": "/assets/skills/c.png" },
+  { "Title": "C++", "img": "/assets/skills/C++.png" },
+  { "Title": "Java", "img": "/assets/skills/java.png" },
+  { "Title": "SQL", "img": "/assets/skills/database.png" },
+  { "Title": "JavaScript", "img": "/assets/skills/java-script.png" },
+  { "Title": "Django", "img": "/assets/skills/django.png" },
+  { "Title": "Node.js", "img": "/assets/skills/nodejs.png" },
+  { "Title": "Express.js", "img": "/assets/skills/ej.png" },
+  { "Title": "ReactJS", "img": "/assets/skills/react.png" },
+  { "Title": "MongoDB", "img": "/assets/skills/database-storage.png" },
+  { "Title": "Git", "img": "/assets/skills/github.png" },
+  { "Title": "HTML", "img": "/assets/skills/html.png" },
+  { "Title": "CSS", "img": "/assets/skills/css.png" },
+  { "Title": "Tailwind CSS", "img": "/assets/skills/tailwindcss.png" }
+]

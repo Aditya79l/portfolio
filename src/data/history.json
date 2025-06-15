@@ -1,0 +1,24 @@
+[
+  {
+    "role": "Data Analyst",
+    "organisation": "APSSDC",
+    "startDate": "MAY 2023",
+    "endDate": "JULY 2023",
+    "experiences": [
+      "Worked on Amazon Sales Data, Analyzed and Visualized Data to gain insights."
+    ],
+    "img": "assets/history/APSSDC.png"
+  },
+  {
+    "role": "Research",
+    "organisation": "11th IEEE International Conference on Applied System Innovation 2025(IEEE-ICASI 2025)",
+    "startDate": "22 APR 2025",
+    "endDate": "25 APR 2025",
+    "experiences": [
+      "Published a paper on IEEE Xplore.",
+      "A Comparative Analysis of Object Detection Models for Assistive Navigation in Dynamic Environments"
+    ],
+
+    "img": "assets/history/IEEE.png"
+  }
+]

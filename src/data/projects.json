@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Circl Chat Web App",
+    "imageSrc": "/projects/ChatApp.png",
+    "description": "Real Time communication chat app.",
+    "skills": ["React", "Express", "Node", "MongoDB", "Tailwind CSS"],
+    "demo": "Not Available",
+    "source": "https://github.com/Aditya79l/Chat-APP-Frontend"
+  },
+  {
+    "title": "Plant Andalysis AI ",
+    "imageSrc": "projects/plant.png",
+    "description": "Plant identification and analysis services through an AI-powered interface.",
+    "skills": ["Express", "Node", "Gemini AI", "Git"],
+    "demo": "Not Available",
+    "source": "https://github.com/Aditya79l/Plant-identifier-using-AI"
+  },
+  {
+    "title": "Blog Web App",
+    "imageSrc": "projects/Blog.png",
+    "description": "User authentication, post creation/editing, comments, and  profiles.",
+    "skills": ["Express", "Node", "MongoDB", "Git"],
+    "demo": "Not Available",
+    "source": "https://github.com/Aditya79l/BLOG-PROJECT"
+  },
+  {
+    "title": "Object Detection for VIP's Assistive Navigation in Dynamic Environments",
+    "imageSrc": "projects/yolo.png",
+    "description": "-Created a real-time navigation system with object detection, depth estimation, and multimodal feedback.",
+    "skills": [
+      "Python",
+      "YOLOv11",
+      "Faster R-CNN",
+      " DETR",
+      "CenterNet",
+      "MiDaS",
+      "OpenCV",
+      "TTS"
+    ],
+    "demo": "Not Available",
+    "source": "https://drive.google.com/drive/folders/1jl8tE_gdUhP8vXUwswSreVbllBVGOWmR?usp=drive_link"
+  }
+]
