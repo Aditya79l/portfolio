@@ -26,7 +26,7 @@
   {
     "title": "Object Detection for VIP's Assistive Navigation in Dynamic Environments",
     "imageSrc": "projects/yolo.png",
-    "description": "-Created a real-time navigation system with object detection, depth estimation, and multimodal feedback.",
+    "description": "Created a real-time navigation system with object detection, depth estimation, and multimodal feedback.",
     "skills": [
       "Python",
       "YOLOv11",
@@ -37,6 +37,14 @@
       "OpenCV",
       "TTS"
     ],
+    "demo": "Not Available",
+    "source": "https://drive.google.com/drive/folders/1jl8tE_gdUhP8vXUwswSreVbllBVGOWmR?usp=drive_link"
+  },
+  {
+    "title": "AI Writing Editor",
+    "imageSrc": "projects/Writing.png",
+    "description": "An AI-powered writing assistant with an Express.js backend offering text analysis, grammar, and spell checking via secure, CORS-enabled JSON API endpoints",
+    "skills": ["Express", "Node", "React", "ChatGPT", "Privy.io", "Git"],
     "demo": "Not Available",
     "source": "https://drive.google.com/drive/folders/1jl8tE_gdUhP8vXUwswSreVbllBVGOWmR?usp=drive_link"
   }
