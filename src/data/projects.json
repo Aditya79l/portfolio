@@ -46,6 +46,6 @@
     "description": "An AI-powered writing assistant with an Express.js backend offering text analysis, grammar, and spell checking via secure, CORS-enabled JSON API endpoints",
     "skills": ["Express", "Node", "React", "ChatGPT", "Privy.io", "Git"],
     "demo": "Not Available",
-    "source": "https://drive.google.com/drive/folders/1jl8tE_gdUhP8vXUwswSreVbllBVGOWmR?usp=drive_link"
+    "source": "https://github.com/Aditya79l/Ai-writing"
   }
 ]
