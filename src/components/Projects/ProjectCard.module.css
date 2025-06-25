@@ -8,6 +8,18 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  height: 520px; /* Fixed height */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 24px 26px rgba(0, 0, 0, 0.4);
+}
+
+.containerExpanded {
+  height: auto;
 }
 
 .image {
@@ -23,6 +35,15 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Truncate to 3 lines */
+  -webkit-box-orient: vertical;
+}
+
+.descriptionExpanded {
+  -webkit-line-clamp: unset;
+  overflow: visible;
 }
 
 .skills {
@@ -33,6 +54,12 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  max-height: 78px;
+  overflow: hidden;
+}
+
+.skillsExpanded {
+  max-height: none;
 }
 
 .skill {
@@ -58,4 +85,24 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+.readMore {
+  font-size: 16px;
+  color: white;
+  background-color: rgba(6, 6, 16, 0.15);
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-top: 14px; /* Increased from 10px */
+  margin-bottom: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.readMore:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
 }

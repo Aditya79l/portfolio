@@ -3,8 +3,8 @@
 .container {
   margin-top: 76px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 0 10%;
+  position: relative;
 }
 
 .title {
@@ -12,15 +12,93 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.projects {
-  margin-top: 37px;
+/* Swiper outer container with flex layout */
+.swiperOuter {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.swiperContainer {
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+/* Custom navigation buttons */
+.customPrev,
+.customNext {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.customPrev:hover,
+.customNext:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+  transform: scale(1.1);
+}
+
+.customPrev:disabled,
+.customNext:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.customPrev:disabled:hover,
+.customNext:disabled:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-text);
+  transform: none;
+}
+
+/* Hide default Swiper navigation */
+.swiperContainer :global(.swiper-button-prev),
+.swiperContainer :global(.swiper-button-next) {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .swiperOuter {
+    gap: 15px;
+  }
+
+  .customPrev,
+  .customNext {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .swiperOuter {
+    gap: 10px;
+  }
+
+  .customPrev,
+  .customNext {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
 }
