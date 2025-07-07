@@ -13,6 +13,45 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+@media (max-width: 600px) {
+  .container {
+    max-width: 98vw;
+    width: 100%;
+    height: auto;
+    padding: 12px 6vw;
+    box-sizing: border-box;
+  }
+  .image {
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 16px;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+  }
+  .skill {
+    font-size: 15px;
+    padding: 2px 12px;
+  }
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .link {
+    font-size: 18px;
+    padding: 1px 12px;
+  }
+  .readMore {
+    font-size: 14px;
+    padding: 4px 10px;
+    margin-top: 10px;
+  }
+}
+
 .container:hover {
   transform: translateY(-10px);
   box-shadow: 0 24px 26px rgba(0, 0, 0, 0.4);
@@ -38,11 +77,13 @@
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3; /* Truncate to 3 lines */
+  line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
 .descriptionExpanded {
   -webkit-line-clamp: unset;
+  line-clamp: unset;
   overflow: visible;
 }
 

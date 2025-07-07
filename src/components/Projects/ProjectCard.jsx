@@ -5,8 +5,18 @@ export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   const [expanded, setExpanded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-  const shouldShowMore = description.length > 120 || skills.length > 6;
+  React.useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 600);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  // Always show Read More on mobile, otherwise only if content is long
+  const shouldShowMore =
+    isMobile || description.length > 80 || skills.length > 4;
 
   return (
     <div
@@ -26,6 +36,17 @@ export const ProjectCard = ({
         className={`${styles.description} ${
           expanded ? styles.descriptionExpanded : ""
         }`}
+        style={
+          !expanded
+            ? {
+                display: "-webkit-box",
+                WebkitLineClamp: 3,
+                lineClamp: 3,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+              }
+            : {}
+        }
       >
         {description}
       </p>
