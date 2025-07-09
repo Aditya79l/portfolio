@@ -8,13 +8,22 @@
     "source": "https://github.com/Aditya79l/Chat-APP-Frontend"
   },
   {
-    "title": "Plant Andalysis AI ",
-    "imageSrc": "projects/plant.png",
-    "description": "Plant identification and analysis services through an AI-powered interface.",
-    "skills": ["Express", "Node", "Gemini AI", "Git"],
+    "title": "MCQ GENERATOR",
+    "imageSrc": "projects/Quiz.png",
+    "description": "An AI-powered MCQ generator used for prearation of mcqs From a PDF file.",
+    "skills": [
+      "Python",
+      "ChromaDB",
+      "React+vite",
+      "Gemini-1.5-flash",
+      "FastAPI",
+      "Tailwind CSS",
+      "Git"
+    ],
     "demo": "Not Available",
-    "source": "https://github.com/Aditya79l/Plant-identifier-using-AI"
+    "source": "https://github.com/Aditya79l/AI-MCQ-GENERATOR"
   },
+
   {
     "title": "Blog Web App",
     "imageSrc": "projects/Blog.png",
@@ -22,6 +31,14 @@
     "skills": ["Express", "Node", "MongoDB", "Git"],
     "demo": "Not Available",
     "source": "https://github.com/Aditya79l/BLOG-PROJECT"
+  },
+  {
+    "title": "Plant Andalysis AI ",
+    "imageSrc": "projects/plant.png",
+    "description": "Plant identification and analysis services through an AI-powered interface.",
+    "skills": ["Express", "Node", "Gemini AI", "Git"],
+    "demo": "Not Available",
+    "source": "https://github.com/Aditya79l/Plant-identifier-using-AI"
   },
   {
     "title": "Object Detection for VIP's Assistive Navigation in Dynamic Environments",
